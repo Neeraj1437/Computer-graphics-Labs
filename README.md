@@ -15,7 +15,7 @@ The Bresenham Line Drawing Algorithm is an incremental line rasterization algori
 
 **Output:**
 
-![Bresenham Line Drawing](Ouputs\Bresenham_Line.png)
+![Bresenham Line Drawing](Ouputs/Bresenham_Line.png)
 
 ---
 
@@ -30,7 +30,7 @@ The Midpoint Circle Drawing Algorithm uses a decision parameter to determine the
 
 **Output:**
 
-![Midpoint Circle Drawing](Ouputs\Midpoint.png)
+![Midpoint Circle Drawing](Ouputs/Midpoint.png)
 
 ---
 
