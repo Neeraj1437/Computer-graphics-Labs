@@ -54,15 +54,14 @@ Use keys `1` through `6` to apply the available transformations:
 
 **Outputs:**
 
-| Transformation | Output |
-| :---: | :---: |
-| Original triangle | <div align="center"><img src="Ouputs/2d_transform/base.png" alt="Original triangle" width="160"></div> |
-| Translation | <div align="center"><img src="Ouputs/2d_transform/translate.png" alt="Translation" width="160"></div> |
-| Rotation | <div align="center"><img src="Ouputs/2d_transform/rotate.png" alt="Rotation" width="160"></div> |
-| Scaling | <div align="center"><img src="Ouputs/2d_transform/scaling.png" alt="Scaling" width="160"></div> |
-| Reflection about the X-axis | <div align="center"><img src="Ouputs/2d_transform/reflection_x.png" alt="Reflection about the X-axis" width="160"></div> |
-| Reflection about the Y-axis | <div align="center"><img src="Ouputs/2d_transform/reflection_y.png" alt="Reflection about the Y-axis" width="160"></div> |
-| Reflection about the origin | <div align="center"><img src="Ouputs/2d_transform/reflection_origin.png" alt="Reflection about the origin" width="160"></div> |
+| Transformation | Original | Transformed Output |
+| :---: | :---: | :---: |
+| Translation | <img src="Ouputs/2d_transform/base.png" alt="Original triangle" width="300"> | <img src="Ouputs/2d_transform/translate.png" alt="Translated triangle" width="300"> |
+| Rotation | <img src="Ouputs/2d_transform/base.png" alt="Original triangle" width="300"> | <img src="Ouputs/2d_transform/rotate.png" alt="Rotated triangle" width="300"> |
+| Scaling | <img src="Ouputs/2d_transform/base.png" alt="Original triangle" width="300"> | <img src="Ouputs/2d_transform/scaling.png" alt="Scaled triangle" width="300"> |
+| Reflection about the X-axis | <img src="Ouputs/2d_transform/base.png" alt="Original triangle" width="300"> | <img src="Ouputs/2d_transform/reflection_x.png" alt="Triangle reflected about the X-axis" width="300"> |
+| Reflection about the Y-axis | <img src="Ouputs/2d_transform/base.png" alt="Original triangle" width="300"> | <img src="Ouputs/2d_transform/reflection_y.png" alt="Triangle reflected about the Y-axis" width="300"> |
+| Reflection about the origin | <img src="Ouputs/2d_transform/base.png" alt="Original triangle" width="300"> | <img src="Ouputs/2d_transform/reflection_origin.png" alt="Triangle reflected about the origin" width="300"> |
 
 ---
 
