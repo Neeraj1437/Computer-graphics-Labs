@@ -15,7 +15,7 @@ The Bresenham Line Drawing Algorithm is an incremental line rasterization algori
 
 **Output:**
 
-![Bresenham Line Drawing](Ouputs/Bresenham_Line.png)
+<img src="Ouputs/Bresenham_Line.png" alt="Bresenham Line Drawing" width="300">
 
 ---
 
@@ -30,7 +30,39 @@ The Midpoint Circle Drawing Algorithm uses a decision parameter to determine the
 
 **Output:**
 
-![Midpoint Circle Drawing](Ouputs/Midpoint.png)
+<img src="Ouputs/Midpoint.png" alt="Midpoint Circle Drawing" width="300">
+
+---
+
+### 3. 2D Transformations Using Homogeneous Coordinates
+
+**Description:**
+This program demonstrates 2D geometric transformations on a triangle using homogeneous coordinate matrices. It supports translation, rotation, scaling, and reflection about the X-axis, Y-axis, and origin.
+
+**Implementation:**
+
+[`2d_Tarsformation/main.py`](2d_Tarsformation/main.py)
+
+Use keys `1` through `6` to apply the available transformations:
+
+1. Translation
+2. Rotation
+3. Scaling
+4. Reflection about the X-axis
+5. Reflection about the Y-axis
+6. Reflection about the origin
+
+**Outputs:**
+
+| Transformation | Output |
+| :---: | :---: |
+| Original triangle | <div align="center"><img src="Ouputs/2d_transform/base.png" alt="Original triangle" width="160"></div> |
+| Translation | <div align="center"><img src="Ouputs/2d_transform/translate.png" alt="Translation" width="160"></div> |
+| Rotation | <div align="center"><img src="Ouputs/2d_transform/rotate.png" alt="Rotation" width="160"></div> |
+| Scaling | <div align="center"><img src="Ouputs/2d_transform/scaling.png" alt="Scaling" width="160"></div> |
+| Reflection about the X-axis | <div align="center"><img src="Ouputs/2d_transform/reflection_x.png" alt="Reflection about the X-axis" width="160"></div> |
+| Reflection about the Y-axis | <div align="center"><img src="Ouputs/2d_transform/reflection_y.png" alt="Reflection about the Y-axis" width="160"></div> |
+| Reflection about the origin | <div align="center"><img src="Ouputs/2d_transform/reflection_origin.png" alt="Reflection about the origin" width="160"></div> |
 
 ---
 
