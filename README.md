@@ -34,35 +34,7 @@ The Midpoint Circle Drawing Algorithm uses a decision parameter to determine the
 
 ---
 
-### 3. Composite 2D Transformations
-
-**Description:**
-This program applies a composite transformation to a triangle using 3x3 homogeneous-coordinate matrices. The transformation combines scaling, shearing, rotation, and translation in the following order:
-
-```text
-M = T * R * S * H
-```
-
-The original triangle is drawn in blue, the transformed triangle is drawn in red, and the coordinate axes are shown in gray.
-
-**Transformations used:**
-
-* Scaling by `(0.7, 0.7)`
-* Shearing in the X direction by `0.3`
-* Rotation by `30` degrees
-* Translation by `(0.3, 0.2)`
-
-**Implementation:**
-
-[`Composite_Transformation/main.py`](Composite_Transformation/main.py)
-
-**Output:**
-
-<img src="Ouputs/composite.png" alt="Composite 2D transformation" width="500">
-
----
-
-### 4. 2D Transformations Using Homogeneous Coordinates
+### 3. 2D Transformations Using Homogeneous Coordinates
 
 **Description:**
 This program demonstrates 2D geometric transformations on a triangle using homogeneous coordinate matrices. It supports translation, rotation, scaling, and reflection about the X-axis, Y-axis, and origin.
@@ -90,6 +62,34 @@ Use keys `1` through `6` to apply the available transformations:
 | Reflection about the X-axis | <img src="Ouputs/2d_transform/base.png" alt="Original triangle" width="300"> | <img src="Ouputs/2d_transform/reflection_x.png" alt="Triangle reflected about the X-axis" width="300"> |
 | Reflection about the Y-axis | <img src="Ouputs/2d_transform/base.png" alt="Original triangle" width="300"> | <img src="Ouputs/2d_transform/reflection_y.png" alt="Triangle reflected about the Y-axis" width="300"> |
 | Reflection about the origin | <img src="Ouputs/2d_transform/base.png" alt="Original triangle" width="300"> | <img src="Ouputs/2d_transform/reflection_origin.png" alt="Triangle reflected about the origin" width="300"> |
+
+---
+
+### 4. Composite 2D Transformations
+
+**Description:**
+This program applies a composite transformation to a triangle using 3x3 homogeneous-coordinate matrices. The transformation combines scaling, shearing, rotation, and translation in the following order:
+
+```text
+M = T * R * S * H
+```
+
+The original triangle is drawn in blue, the transformed triangle is drawn in red, and the coordinate axes are shown in gray.
+
+**Transformations used:**
+
+* Scaling by `(0.7, 0.7)`
+* Shearing in the X direction by `0.3`
+* Rotation by `30` degrees
+* Translation by `(0.3, 0.2)`
+
+**Implementation:**
+
+[`Composite_Transformation/main.py`](Composite_Transformation/main.py)
+
+**Output:**
+
+<img src="Ouputs/composite.png" alt="Composite 2D transformation" width="500">
 
 ---
 
