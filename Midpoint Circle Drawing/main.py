@@ -37,6 +37,15 @@ def midpoint_circle(xc, yc, r):
             p = p + 2 * x - 2 * y + 1
 
 
+def draw_circle():
+    glColor3f(0.0, 1.0, 0.0)
+    glPointSize(4)
+
+    glBegin(GL_POINTS)
+    midpoint_circle(400, 300, 150)
+    glEnd()
+
+
 def main():
 
     if not glfw.init():
@@ -77,25 +86,7 @@ def main():
 
         glClear(GL_COLOR_BUFFER_BIT)
 
-        # Circle color
-        glColor3f(
-            0.0, 1.0, 0.0
-        )
-
-        # Pixel size
-        glPointSize(4)
-
-        glBegin(GL_POINTS)
-
-        # Center = (400, 300)
-        # Radius = 150
-        midpoint_circle(
-            400,
-            300,
-            150
-        )
-
-        glEnd()
+        draw_circle()
 
         glfw.swap_buffers(window)
         glfw.poll_events()
